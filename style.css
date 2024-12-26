@@ -1,0 +1,487 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Стиль для секций */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для турнирной страницы */
+.tournaments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.tournament {
+    width: 30%;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.tournament h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tournament button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.tournament button:hover {
+    background-color: #575757;
+}
+
+/* Стиль для страницы обучения */
+.training-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.training-item {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.training-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.training-item button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.training-item button:hover {
+    background-color: #575757;
+}
+
+/* Стиль для страницы профиля */
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-info .left {
+    width: 60%;
+}
+
+.profile-info .right {
+    width: 35%;
+}
+
+.profile-info img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.profile-info p {
+    font-size: 16px;
+}
+
+/* Стиль для страницы видео и стримов */
+.streams-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.stream-item {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stream-item iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+/* Логотип */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Стили для заголовков */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Настройки для ссылок в навигации */
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Подвал */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+/* Логотип */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Заголовок страницы */
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Настройки для картинок и видео */
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Подготовка кнопки */
+button {
+    font-size: 1rem;
+}
+
+/* Стримы карточки */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для кнопки */
+button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Подвал */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+/* Логотип */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Профиль и карточки */
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Тексты и кнопки */
+.card-body h5 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-body p {
+    font-size: 1rem;
+}
+
+/* Подвал */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Отступы и выравнивание */
+.profile-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.profile-info h2 {
+    color: #333;
+    font-size: 2rem;
+}
+/* Логотип */
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+/* Карточки */
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Кнопки */
+.card-body .btn {
+    margin-top: 10px;
+}
+
+/* Подвал */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Заголовки и текст */
+h2, h3, p {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px; /* Увеличен размер шрифта для иконок */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Стилизация карточек турниров */
+.tournament {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tournament:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tournament h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.tournament p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px; /* Увеличен размер шрифта для иконок */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Стилизация карточек с гайдами */
+.training-item {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.training-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.training-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.training-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
